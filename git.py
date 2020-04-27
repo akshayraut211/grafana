@@ -1,9 +1,9 @@
 from github import Github
 from datetime import *
-g = Github("635d4c0cda2d8587d210f9f768a4880c9426ba4a")
+g = Github("29167964dd3bdcb30758a7ff7778fbe88e272b78")
 user = g.get_user()
 all_repos = user.get_repos()
-grafana_repo = user.get_repo("grafanademo")
+grafana_repo = user.get_repo("customMetrics)
 
 
 
